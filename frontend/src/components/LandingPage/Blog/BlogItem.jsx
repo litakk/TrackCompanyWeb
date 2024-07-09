@@ -1,19 +1,19 @@
 function BlogItem(props) {
     return (
         <div className="blog-item">
-            <img src={Post1} alt="" />
+            <img src={props.img} alt="" />
             <div className="blog-content">
-                <div className="intro">Subtitle</div>
+                <div className="intro">{props.subtitle}</div>
 
-                <h1 className="title">Минфин предложил единый налоговый вычет</h1>
+                <h1 className="title">{props.title}</h1>
 
                 <p className="info">
-                    <span className="author">Арман Арманов</span>
-                    <span className="date">12312 12031 29</span>
+                    <span className="author">{props.author}</span>
+                    <span className="date">{props.date}</span>
                 </p>
 
                 <p className="text">
-                    Минфин разработал новый формат индивидуальных инвестиционных бизнесов
+                    {props.desc1}
                 </p>
 
                 <a href="#" className="get-info">

@@ -1,7 +1,8 @@
 @import "../../../assets/styles/__settings.scss";
 
 .blog-page-wrapper {
-
+    background-color: $light;
+    color: $dark;
     padding: 50px 250px;
 
     .blog-page-content {
@@ -11,6 +12,7 @@
             @include grid();
             gap: 50px;
             align-items: flex-start;
+            margin-bottom: 50px;
 
             img {
                 width: 100%;
