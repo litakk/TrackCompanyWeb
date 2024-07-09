@@ -2,6 +2,7 @@ import About from "./About"
 import Career from "./Career"
 import Contacts from "./Contacts"
 import Team from "./OurTeam"
+import Blog from "./Blog"
 import Faq from "./Faq"
 
 import CarouselComponent from "../common/CarouselComponent"
@@ -52,6 +53,10 @@ function LandingPage() {
 
             <div className="our-team-wrapper">
                 <Team />
+            </div>
+
+            <div className="blog-wrapper">
+                <Blog />
             </div>
 
             <div className="news-wrapper">
