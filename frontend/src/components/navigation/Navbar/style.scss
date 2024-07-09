@@ -1,13 +1,8 @@
 @import "../../../assets/styles/__settings.scss";
 
 .navbar-wrapper {
-    // background-color: $dark;
-    // color: $light;
-
     background-color: $light;
     color: $dark;
-
-
 
     @include flex();
     justify-content: space-between;

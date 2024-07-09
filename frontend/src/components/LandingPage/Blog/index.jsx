@@ -26,6 +26,7 @@ function Blog(props) {
                                 <BlogItem
                                     key={index}
                                     img={getImage(imgs, index)}
+                                    id={blog_item.id}
                                     subtitle={blog_item.subtitle}
                                     title={blog_item.title}
                                     author={blog_item.author}

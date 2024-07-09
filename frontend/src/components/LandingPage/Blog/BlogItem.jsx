@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function BlogItem(props) {
     return (
         <div className="blog-item">
@@ -16,9 +18,9 @@ function BlogItem(props) {
                     {props.desc1}
                 </p>
 
-                <a href="#" className="get-info">
+                <Link to={"/blog/" + props.id} className="getInfo">
                     Подробнее &rarr;
-                </a>
+                </Link>
 
             </div>
         </div>

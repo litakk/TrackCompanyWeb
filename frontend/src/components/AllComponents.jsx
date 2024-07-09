@@ -7,6 +7,7 @@ import OurTeam from "./LandingPage/OurTeam";
 import Faq from "./LandingPage/Faq";
 import Contacts from "./LandingPage/Contacts";
 import Blog from "./LandingPage/Blog"
+import BlogDetails from "./LandingPage/Blog/BlogDetails";
 import NotFound from "./common/NotFound"
 
 function AllComponents() {
@@ -20,6 +21,7 @@ function AllComponents() {
                 <Route path="/careers" element={<Career />} />
                 <Route path="/team" element={<OurTeam />} />
                 <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/:id" element={<BlogDetails />} />
                 <Route path="/faq" element={<Faq />} />
                 <Route path="/contacts" element={<Contacts />} />
                 <Route path="/*" element={<NotFound />} />
